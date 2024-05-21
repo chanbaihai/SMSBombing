@@ -661,5 +661,20 @@
             "data": "{\"telphone\":\"[phone]\",\"status\":1}"
         },
         "form": ""
+    },
+    {
+        "desc": "lanhu",
+        "url": "https://lanhuapp.com/api/passport/send_verification_code_message",
+        "method": "POST",
+        "header": {
+            "Content-Type":"application/json",
+            "User-From": "lanhu",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        },
+        "data": {
+            "mobile": "[phone]",
+            "scene":"register"
+        },
+        "form": ""
     }
 ]
